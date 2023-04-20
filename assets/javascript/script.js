@@ -15,7 +15,7 @@ $(document).ready(function () {
 
   function Init() {
     applyPastPresentFutureClassToEachTimeBlock()
-    displayCurrentDate();
+    displayCurrentDateAndTime();
     setUserInputValuesInTextarea();
   }
 
@@ -49,11 +49,11 @@ $(document).ready(function () {
     });
   }
 
-  function displayCurrentDate() {
+  function displayCurrentDateAndTime() {
     var today = dayjs();
     $('#currentDay').text(today.format('dddd, MMMM D, YYYY'));
     $('#currentTime').text(today.format('h:m:s A'));
   }
 
-  setInterval(displayCurrentDate, 1000);
+  setInterval(displayCurrentDateAndTime, 1000);
 });
