@@ -34,7 +34,7 @@ MiT
 
 ## Development
 
-This project was created using Visual Code, HTML, CSS, GitHub, and JavaScript.
+This project was created using Visual Code, HTML, CSS, BootStrap, JQuery, JavaScript, and GitHub.
 
 ## How to Contribute
 
