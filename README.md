@@ -1,99 +1,44 @@
-# 05 Third-Party APIs: Work Day Scheduler
+# Buonos Trivia
 
-## Your Task
+## Description
+- The work day scheduler will keep track of your work day by the hour.
+- You can enter your schedule criteria and the app will keep track of the time for you.
+- The app will show you if your task is in the present time, future time, or past time to help manage your daily agenda.
+- Use the clear all button to create a new daily task list. 
 
-Create a simple calendar application that allows a user to save events for each hour of the day by modifying starter code. This app will run in the browser and feature dynamically updated HTML and CSS powered by jQuery.
+## Simple Installation
 
-You'll need to use the [Day.js](https://day.js.org/en/) library to work with date and time. Be sure to read the documentation carefully and concentrate on using Day.js in the browser.
+Simpily follow this  link to view view the Password Generator appplication. https://jeremiahmiranda79.github.io/work-day-scheduler/
 
-## User Story
+## Usage
 
-```md
-AS AN employee with a busy schedule
-I WANT to add important events to a daily planner
-SO THAT I can manage my time effectively
-```
+The header will display the date and time with updates per second in real time..
 
-## Acceptance Criteria
+![screenshot](./assets/img/date-and-time.png)
 
-```md
-GIVEN I am using a daily planner to create a schedule
-WHEN I open the planner
-THEN the current day is displayed at the top of the calendar
-WHEN I scroll down
-THEN I am presented with timeblocks for standard business hours
-WHEN I view the timeblocks for that day
-THEN each timeblock is color coded to indicate whether it is in the past, present, or future
-WHEN I click into a timeblock
-THEN I can enter an event
-WHEN I click the save button for that timeblock
-THEN the text for that event is saved in local storage
-WHEN I refresh the page
-THEN the saved events persist
-```
+We can save our schedule to local storage for later usage. 
 
-The following animation demonstrates the application functionality:
+![screenshot](./assets/img/save-data.png)
 
-<!-- @TODO: create ticket to review/update image) -->
-![A user clicks on slots on the color-coded calendar and edits the events.](./Assets/05-third-party-apis-homework-demo.gif)
+Fill in data!!!...
 
-## Grading Requirements
+![screenshot]()
 
-> **Note**: If a Challenge assignment submission is marked as “0”, it is considered incomplete and will not count towards your graduation requirements. Examples of incomplete submissions include the following:
->
-> * A repository that has no code
->
-> * A repository that includes a unique name but nothing else
->
-> * A repository that includes only a README file but nothing else
->
-> * A repository that only includes starter code
+We can reste our local storage for a clean slate to add a new schedule.
 
-This Challenge is graded based on the following criteria:
+![screenshot](./assets/img/reset-all-values.png)
 
-### Technical Acceptance Criteria: 40%
+## License
 
-* Satisfies all of the above acceptance criteria plus the following:
+MiT
 
-  * Uses a date utility library to work with date and time
+## Development
 
-### Deployment: 32%
+This project was created using Visual Code, HTML, CSS, GitHub, and JavaScript.
 
-* Application deployed at live URL
+## How to Contribute
 
-* Application loads with no errors
+Currently this project is closed for contribution.
 
-* Application GitHub URL submitted
-
-* GitHub repo contains application code
-
-### Application Quality: 15%
-
-* Application user experience is intuitive and easy to navigate
-
-* Application user interface style is clean and polished
-
-* Application resembles the mock-up functionality provided in the Challenge instructions
-
-### Repository Quality: 13%
-
-* Repository has a unique name
-
-* Repository follows best practices for file structure and naming conventions
-
-* Repository follows best practices for class/id naming conventions, indentation, quality comments, etc.
-
-* Repository contains multiple descriptive commit messages
-
-* Repository contains quality README file with description, screenshot, and link to deployed application
-
-## Review
-
-You are required to submit the following for review:
-
-* The URL of the deployed application
-
-* The URL of the GitHub repository, with a unique name and a README describing the project
-
-- - -
-© 2023 edX Boot Camps LLC. Confidential and Proprietary. All Rights Reserved.
+# Thank you
+I appreciate your interest in my projects!
